@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parentLayout"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <!-- Title Section -->
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp" />
+</LinearLayout>
+    <!-- Subtitle Section -->
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Application Practicing."
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp" />
+</LinearLayout>
+    <!-- Grid Layout for Buttons -->
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:padding="16dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/ticBtn01"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginBottom="12dp"
+            android:onClick="CheckClick"
+            android:backgroundTint="#0D9B45"
+            android:textSize="28sp"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/ticBtn02"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="12dp"
+            android:onClick="CheckClick"
+            android:backgroundTint="#0D9B45"
+            android:textSize="28sp"
+            android:textColor="@color/white"></Button>
+        <Button
+            android:id="@+id/ticBtn03"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="12dp"
+            android:onClick="CheckClick"
+            android:backgroundTint="#0D9B45"
+            android:textSize="28sp"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/ticBtn04"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginBottom="12dp"
+            android:onClick="CheckClick"
+            android:backgroundTint="#0D9B45"
+            android:textSize="28sp"
+            android:textColor="@color/white"></Button>
+        <Button
+            android:id="@+id/ticBtn05"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="12dp"
+            android:onClick="CheckClick"
+            android:backgroundTint="#0D9B45"
+            android:textSize="28sp"
+            android:textColor="@color/white"></Button>
+        <Button
+            android:id="@+id/ticBtn06"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="12dp"
+            android:onClick="CheckClick"
+            android:backgroundTint="#0D9B45"
+            android:textSize="28sp"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/ticBtn07"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:onClick="CheckClick"
+            android:backgroundTint="#0D9B45"
+            android:textSize="28sp"
+            android:textColor="@color/white"></Button>
+        <Button
+            android:id="@+id/ticBtn08"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="12dp"
+            android:onClick="CheckClick"
+            android:backgroundTint="#0D9B45"
+            android:textSize="28sp"
+            android:textColor="@color/white"></Button>
+        <Button
+            android:id="@+id/ticBtn09"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="12dp"
+            android:onClick="CheckClick"
+            android:backgroundTint="#0D9B45"
+            android:textSize="28sp"
+            android:textColor="@color/white"></Button>
+
+    </GridLayout>
+    <!-- Reset Button and Counters Section -->
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- Reset Button -->
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Game"
+        android:backgroundTint="#FE0001"
+        android:onClick="onResetClick"
+        android:textColor="@color/white"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Counters -->
+    <TextView
+        android:id="@+id/textViewXWins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X Wins: 0"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewOWins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O Wins: 0"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewDraws"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Draws: 0"
+        android:textSize="18sp" />
+
+    <!-- Additional Text View -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" By M Ahammad Ullah Rifat"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+</LinearLayout>
+</LinearLayout>
