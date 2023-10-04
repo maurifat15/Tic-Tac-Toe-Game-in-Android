@@ -66,12 +66,6 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 The MIT License allows you to use this code with minimal restrictions, as long as you include the original license text (found in the [LICENSE](https://github.com/maurifat15/Tic-Tac-Toe-Game-in-Android/blob/main/LICENSE) file) when you use or redistribute this code. Please respect intellectual property rights and the principles of open-source software.
 
-## Acknowledgments
-
-
-- Thanks to [M Ahammad Ullah Rifat](https://github.com/maurifat15) for the original tutorial.
-
-
 ## Support or Contact
 
 
