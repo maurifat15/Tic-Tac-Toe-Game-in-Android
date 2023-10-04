@@ -69,7 +69,7 @@ The MIT License allows you to use this code with minimal restrictions, as long a
 ## Support or Contact
 
 
-If you have any questions or need assistance, please feel free to [open an issue](https://github.com/yourusername/your-repo-name/issues).
+If you have any questions or need assistance, please feel free to [open an issue](https://github.com/maurifat15/Tic-Tac-Toe-Game-in-Android/issues).
 
 
 ---
