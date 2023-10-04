@@ -108,8 +108,8 @@ public class MainActivity extends AppCompatActivity {
             }
 
             // Apply rotate animation
-            Animation rotate = AnimationUtils.loadAnimation(this, R.anim.rotate);
-            btnCurrent.startAnimation(rotate);
+            Animation scale = AnimationUtils.loadAnimation(this, R.anim.scale);
+            btnCurrent.startAnimation(scale);
         }
     }
 
